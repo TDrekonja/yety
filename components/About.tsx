@@ -26,7 +26,7 @@ export default function About({}:Props){
                 }}
                 className={"-mb-20 md:mb-0 flex-shrink-0 h-60 w-60 rounded-full object-cover  md:rounded-lg md:w-64 md:h-64 xl:w-[500px] xl:h-[500px]"} src={"/nejc.jpg"}/>
         <div className={"space-y-10 px-0 md:px-10"}>
-            <h4 className={"text-4xl font-semibold"}>Something about <span className={"underline decoration-grey-500"}>me</span></h4>
+            <h4 className={"text-4xl font-semibold"}>Something about me</h4>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>

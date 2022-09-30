@@ -7,7 +7,7 @@ import Songs from "../components/Songs";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#000104] h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="bg-[#000104] h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0">
       <Head>
         <title>Yety</title>
 

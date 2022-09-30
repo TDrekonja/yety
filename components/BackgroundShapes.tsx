@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import yetyLogo from '../public/yety-logo.png';
 import Image from 'next/image'
 
-
 const handleOnMouseOver=(e: React.MouseEvent<HTMLAudioElement>)=>{
     e.currentTarget.play();
+
 }
 const handleOnMouseOut=(e: React.MouseEvent<HTMLAudioElement>)=>{
     e.currentTarget.pause();
@@ -54,7 +54,7 @@ export default function BackgroundShapes({}: Props) {
                     <motion.div variants={borderMotion} className="absolute border border-white-500 rounded-full h-[300px] w-[300px] "></motion.div>
                     <motion.div variants={borderMotion} className="absolute border border-red-500 rounded-full h-[300px] w-[300px]  "></motion.div>
                     <motion.div variants={borderMotion} className="absolute border border-blue-500 rounded-full h-[300px] w-[300px]"></motion.div>
-                    <audio controls className="absolute border border-white-500 opacity-0 rounded-full h-[300px] w-[300px]" src="/DaKillaClip.mp3" onMouseOver={handleOnMouseOver} onMouseOut={handleOnMouseOut}></audio>
+                    <audio controls className="absolute border  opacity-0 rounded-full h-[300px] w-[300px]" src="/DaKillaClip.mp3" onMouseOver={handleOnMouseOver} onMouseOut={handleOnMouseOut}></audio>
 
                 </motion.div>
 
