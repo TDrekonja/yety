@@ -42,7 +42,7 @@ export default function Header({}: Props){
                 }}
                 className="flex flex-row items-center text-#000104-300 cursor-pointer">
                 <SocialIcon className="cursor-pointer" network="email" fgColor="#0541a1" bgColor="transparent"/>
-                <p className="uppercase hidden md:inline-flex text-sm text-#03A4FE">Contact</p>
+                <p className="uppercase hidden md:inline-flex text-sm text-#03A4FE">Contact me</p>
             </motion.div>
         </header>
     )

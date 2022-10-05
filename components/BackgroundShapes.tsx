@@ -45,11 +45,11 @@ export default function BackgroundShapes({}: Props) {
 
             className="relative flex justify-center items-center">
 
-            <div className="absolute border rounded-full h-[300px] w-[300px] ">
+            <div className="absolute border rounded-full h-[300px] w-[300px] " >
                 <Image id={"yety"} className="relative rounded-full h-32 w-32 mx-auto object-cover" src={yetyLogo} alt="Yety-logo"/>
             </div>
 
-                <motion.div  variants={headMotion} initial={"rest"} whileHover={["hover"]}  className="group h-[300px] w-[300px]  ">
+                <motion.div  variants={headMotion} initial={"rest"} whileHover={["hover"]} onClick={()=> window.open("https://share.amuse.io/track/yety-da-killa", "_blank")}   className="group h-[300px] w-[300px]  ">
 
                     <motion.div variants={borderMotion} className="absolute border border-white-500 rounded-full h-[300px] w-[300px] "></motion.div>
                     <motion.div variants={borderMotion} className="absolute border border-red-500 rounded-full h-[300px] w-[300px]  "></motion.div>

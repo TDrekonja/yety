@@ -32,3 +32,16 @@ a {
 .randomShape{
   border-radius: 60% 39% 41% 35%;
 }
+
+::-webkit-scrollbar{
+  background: black;
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C0C0C0;
+  outline: 1px solid slategrey;
+}
