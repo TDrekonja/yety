@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import yetyLogo from '../public/yety-logo.png';
+import yetyLogo from '{“yety”}/../public/yety-logo.png';
 import Image from 'next/image'
 
 const handleOnMouseOver=(e: React.MouseEvent<HTMLAudioElement>)=>{
