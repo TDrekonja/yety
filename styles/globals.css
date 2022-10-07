@@ -45,3 +45,23 @@ a {
   background-color: #C0C0C0;
   outline: 1px solid slategrey;
 }
+.custom-shape-divider-bottom-1664989231 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1664989231 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 195px;
+}
+
+.custom-shape-divider-bottom-1664989231 .shape-fill {
+  fill: #2C1C6E;
+}
